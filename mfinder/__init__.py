@@ -41,3 +41,4 @@ logging.config.fileConfig(fname="config.ini", disable_existing_loggers=False)
 LOGGER = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
+
